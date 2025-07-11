@@ -1,6 +1,9 @@
+import { FormWithYup } from './components/FormWithYup'
+
 const App = () => {
   return (
     <>
+      <FormWithYup />
     </>
   )
 }
