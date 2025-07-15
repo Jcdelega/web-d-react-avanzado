@@ -19,7 +19,8 @@ export const useOllama = () => {
           stream: true,
         }),
       })
-      setResponse(output.data.response)
+      console.log(output)
+      setResponse(output)
     } catch (error) {
       console.log(`Streaming error: ${error}`)
       setError(error.message || 'Streaming error')
