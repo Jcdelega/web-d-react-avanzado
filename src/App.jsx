@@ -21,15 +21,17 @@ const App = () => {
   }
   return (
     <>
-      <form className='border rounded-xl grid grid-cols-2 gap-4 p-3' onSubmit={handleSubmit(onSubmit)}>
-        <div className='flex'>
-          <input
-            className='text-white p-1 rounded-full hover:bg-teal-600 focus:outline-2 focus:outline-offset-2 focus:outline-teal-500 active:bg-teal-700'
-            placeholder='Do you need help with something?'
-            {...register('userPrompt')}
-          />
-          {errors.username && <p className='text-red-500'>{errors.username.message}</p>}
-          <button className='p-3 m-3 rounded-full bg-teal-500 active:bg-teal-700 justify-self-end-safe' type='submit'>Send</button>
+      <form className='block m-3' onSubmit={handleSubmit(onSubmit)}>
+        <div className='flex justify-evenly'>
+          <div className='w-4/6'>
+            <input
+              className='text-white p-1 m-2 w-full h-10 rounded-full hover:bg-teal-600 focus:outline-2 focus:outline-offset-2 focus:outline-teal-500 active:bg-teal-700'
+              placeholder='Do you need help with something?'
+              {...register('userPrompt')}
+            />
+            {errors.username && <p className='text-red-500'>{errors.username.message}</p>}
+          </div>
+          <button className='p-3 m-1 w-1/6 rounded-full bg-teal-500 active:bg-teal-700' type='submit'>Send</button>
         </div>
       </form>
       <div className='border'>
