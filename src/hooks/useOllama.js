@@ -6,7 +6,7 @@ export const useOllama = () => {
   const [loader, setLoader] = useState(false)
   const [error, setError] = useState(null)
 
-  const handleSubmit = async ($prompt) => {
+  const handleRequest = async ($prompt) => {
     setLoader(true)
     setResponse('')
     try {
@@ -16,7 +16,7 @@ export const useOllama = () => {
         body: JSON.stringify({
           model: 'gemma:2b',
           prompt: $prompt,
-          max_tokens: 500,
+          max_tokens: 200,
           stream: false,
         }),
       })
@@ -65,5 +65,5 @@ export const useOllama = () => {
       setLoader(false)
     }
   }
-  return { handleSubmit, response, error, loader }
+  return { handleRequest, response, error, loader }
 }
