@@ -40,7 +40,6 @@ const Friday = () => {
   }, [response]) */
 
   const onSubmit = (query) => {
-    
     dispatch({ type: 'ADD_MESSAGE', payload: { from: 'user', text: query.userPrompt } })
     reset()
 
