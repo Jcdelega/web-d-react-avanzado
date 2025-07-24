@@ -1013,4 +1013,4 @@ const musicData = {
   ]
 }
 
-module.exports.musicData = musicData
+export default musicData
