@@ -1,4 +1,4 @@
-const musicData = {
+let musicData = {
   rock: [
     {
       id: 1,
