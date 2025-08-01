@@ -1,0 +1,84 @@
+{
+  "rock": [
+    {
+      "id": 1,
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "year": 1975,
+      "country": "UK",
+      "notes": "Iconic rock anthem."
+    },
+    {
+      "id": 2,
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "year": 1971,
+      "country": "UK",
+      "notes": "Classic rock ballad."
+    },
+    {
+      "id": 3,
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "year": 1991,
+      "country": "USA",
+      "notes": "Defined the grunge era."
+    },
+    {
+      "id": 4,
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976,
+      "country": "USA",
+      "notes": "Timeless rock classic."
+    },
+    {
+      "id": 5,
+      "title": "Sweet Child o' Mine",
+      "artist": "Guns N' Roses",
+      "year": 1987,
+      "country": "USA",
+      "notes": "Hard rock staple."
+    },
+    {
+      "id": 6,
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "year": 1986,
+      "country": "USA",
+      "notes": "80s rock anthem."
+    },
+    {
+      "id": 7,
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "year": 1995,
+      "country": "UK",
+      "notes": "Britpop defining song."
+    },
+    {
+      "id": 8,
+      "title": "Seven Nation Army",
+      "artist": "The White Stripes",
+      "year": 2003,
+      "country": "USA",
+      "notes": "Garage rock revival hit."
+    },
+    {
+      "id": 9,
+      "title": "Hysteria",
+      "artist": "Muse",
+      "year": 2003,
+      "country": "UK",
+      "notes": "Modern rock with a powerful bassline."
+    },
+    {
+      "id": 10,
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "year": 2003,
+      "country": "USA",
+      "notes": "Indie rock anthem."
+    }
+  ]
+}
